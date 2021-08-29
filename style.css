@@ -91,26 +91,20 @@ body {
 
 #tabs {
     margin-top: 50px;
-    display: flex;
-    gap: 60px;
-    /* justify-content: space-around;
-    outline: 1px solid grey; */
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    justify-content: center;
 }
 
 .tab {
     color: indianred;
     font-size: x-large;
-    height: 320px;
-    width: 220px;
+    height: 300px;
+    width: 200px;
     border: 1px solid indianred;
     border-radius: 8px;
     box-shadow: 5px 5px 10px darkgray;
 }
-
-.tab1 {
-    margin-left: 350px;
-}
-
 
 .strike1 {
     color: crimson;
